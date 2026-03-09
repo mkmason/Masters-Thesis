@@ -6,6 +6,8 @@ LDFLAGS = -lm
 TARGET  = query_runner
 SRC     = query_runner.c rapl.c
 RUNNER_PREFIX ?= sudo
+SUDO_PASSWORD ?= a
+SUDO_PRIME_CMD = printf '%s\n' '$(SUDO_PASSWORD)' | sudo -S -v >/dev/null 2>&1
 
 # Default target
 all: compile
@@ -16,6 +18,7 @@ compile:
 
 # Run all queries
 run: compile
+	@$(SUDO_PRIME_CMD)
 	$(RUNNER_PREFIX) ./$(TARGET)
 
 # Run a specific query (reminder-style target)
@@ -26,6 +29,7 @@ run-single: compile
 ifndef QUERY
 	$(error You must provide QUERY. Example: make run-single QUERY=APX1090)
 endif
+	@$(SUDO_PRIME_CMD)
 	$(RUNNER_PREFIX) env QUERY_FILTER=$(QUERY) ./$(TARGET)
 
 # Optional: clean build artifacts

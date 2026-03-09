@@ -29,6 +29,7 @@
 #define SET_PAUSE_SEC 10
 #define DEFAULT_SIGLESS_ADDR "127.0.0.1:8000"
 #define DEFAULT_SIGLESS_CHANNEL "CH1"
+#define DEFAULT_SUDO_PASSWORD "a"
 
 static double get_time_sec(void) {
     struct timespec ts;
@@ -98,6 +99,19 @@ static void generate_run_id(char *buf, size_t buf_size) {
              raw[4], raw[5], raw[6], raw[7]);
 }
 
+/* Prime sudo credentials once before timed runs so password prompts don't skew loop timing. */
+static int prime_sudo_credentials(const char *password) {
+    char cmd[512];
+    const char *pw = (password && *password) ? password : DEFAULT_SUDO_PASSWORD;
+    int n = snprintf(cmd, sizeof(cmd),
+                     "printf '%%s\\n' '%s' | sudo -S -v >/dev/null 2>&1",
+                     pw);
+    if (n <= 0 || n >= (int)sizeof(cmd)) {
+        return -1;
+    }
+    return system(cmd);
+}
+
 /* helper to call the script; drop the script into the same directory or adjust path */
 static void post_sigless_script(const char *remote, const char *channel, const char *msg) {
     char cmd[2048];
@@ -165,6 +179,7 @@ int main(void) {
 
     const char *sigless_addr = DEFAULT_SIGLESS_ADDR;
     const char *sigless_channel = DEFAULT_SIGLESS_CHANNEL;
+    const char *sudo_password = getenv("SUDO_PASSWORD");
 
     const char *filter = getenv("QUERY_FILTER"); // if NULL -> treat as "all"
     int filter_all = 0;
@@ -238,12 +253,21 @@ int main(void) {
         return 1;
     }
 
+    if (prime_sudo_credentials(sudo_password) != 0) {
+        fprintf(stderr, "Failed to prime sudo credentials; set SUDO_PASSWORD if needed.\n");
+        for (int i = 0; i < count; i++) {
+            free(files[i]);
+        }
+        fclose(log);
+        return 1;
+    }
+
     for (int f = 0; f < count; f++) {
         char cmd[MAX_CMD];
         // Run psql as postgres user, sending output to /dev/null (same as original)
         // If your environment doesn't need sudo, set QUERY_RUN_CMD or edit here.
         int n = snprintf(cmd, sizeof(cmd),
-                 "sudo -u postgres psql -d tpch -f %s/%s > /dev/null 2>&1",
+                 "sudo -n -u postgres psql -d tpch -f %s/%s > /dev/null 2>&1",
                  query_dir, files[f]);
         if (n >= (int)sizeof(cmd)) {
             fprintf(stderr, "Command truncated for %s\n", files[f]);
