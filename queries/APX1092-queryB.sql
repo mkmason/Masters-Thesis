@@ -5,4 +5,4 @@ EXPLAIN ANALYZE SELECT
 FROM lineitem
 WHERE l_suppkey > 500
 GROUP BY l_suppkey
-HAVING SUM(l_quantity) > 30000;
+HAVING SUM(l_quantity) > 15000;

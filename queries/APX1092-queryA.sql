@@ -4,4 +4,4 @@ EXPLAIN ANALYZE SELECT
     SUM(l_quantity) AS total_quantity
 FROM lineitem
 GROUP BY l_suppkey
-HAVING l_suppkey > 500 AND SUM(l_quantity) > 30000;
+HAVING l_suppkey > 500 AND SUM(l_quantity) > 15000;
