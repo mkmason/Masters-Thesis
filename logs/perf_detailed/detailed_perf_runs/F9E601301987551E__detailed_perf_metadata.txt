@@ -1,0 +1,7 @@
+run_id=F9E601301987551E
+run_started_utc=2026-04-16T19:58:21Z
+query_dir=queries
+query_filter=APX1186
+perf_events=cycles,instructions,branches,branch-misses,cache-references,cache-misses,context-switches,cpu-migrations,page-faults,ref-cycles,cpu-clock,task-clock
+turbostat_columns=Core,CPU,Avg_MHz,Busy%,Bzy_MHz,TSC_MHz,IPC,CoreTmp,PkgTmp,PkgWatt,CorWatt,RAMWatt
+sample_interval_sec=1

@@ -1,0 +1,5 @@
+run_id=3FCB6067AE1B0BCE
+run_started_utc=2026-04-05T21:39:33Z
+query_dir=queries
+query_filter=all
+perf_events=cycles,instructions,branches,branch-misses,cache-references,cache-misses,context-switches,cpu-migrations,page-faults

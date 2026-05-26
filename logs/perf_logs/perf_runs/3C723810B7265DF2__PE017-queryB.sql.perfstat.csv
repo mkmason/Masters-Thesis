@@ -1,0 +1,900 @@
+140940383,,cycles,35389189,66.00,,
+141471441,,instructions,44327687,83.00,1.00,insn per cycle
+27990118,,branches,44443133,83.00,,
+995265,,branch-misses,43567841,81.00,3.56,of all branches
+6116083,,cache-references,44593631,83.00,,
+1098301,,cache-misses,45035994,84.00,17.96,of all cache refs
+14,,context-switches,53257447,100.00,,
+2,,cpu-migrations,53257447,100.00,,
+2442,,page-faults,53257447,100.00,,
+139474337,,cycles,35004729,66.00,,
+140497789,,instructions,43918478,82.00,1.01,insn per cycle
+27694611,,branches,44036094,83.00,,
+979423,,branch-misses,43740485,82.00,3.54,of all branches
+6027019,,cache-references,44109606,83.00,,
+1053560,,cache-misses,44774886,84.00,17.48,of all cache refs
+14,,context-switches,52916450,100.00,,
+2,,cpu-migrations,52916450,100.00,,
+2443,,page-faults,52916450,100.00,,
+138658656,,cycles,35162491,66.00,,
+140595559,,instructions,43979372,83.00,1.01,insn per cycle
+28946010,,branches,43248204,81.00,,
+966079,,branch-misses,44295614,83.00,3.34,of all branches
+6111831,,cache-references,45014581,85.00,,
+1062731,,cache-misses,43865782,82.00,17.39,of all cache refs
+15,,context-switches,52896668,100.00,,
+2,,cpu-migrations,52896668,100.00,,
+2444,,page-faults,52896668,100.00,,
+138669163,,cycles,34965910,66.00,,
+138863672,,instructions,43968979,83.00,1.00,insn per cycle
+28899030,,branches,44478138,83.00,,
+962654,,branch-misses,43633515,82.00,3.33,of all branches
+6119125,,cache-references,43834862,82.00,,
+1052176,,cache-misses,44931111,84.00,17.19,of all cache refs
+14,,context-switches,52960884,100.00,,
+3,,cpu-migrations,52960884,100.00,,
+2444,,page-faults,52960884,100.00,,
+138692508,,cycles,34878894,66.00,,
+142848255,,instructions,43767310,83.00,1.03,insn per cycle
+28340997,,branches,43742218,83.00,,
+976874,,branch-misses,43570544,82.00,3.45,of all branches
+6098473,,cache-references,44268593,84.00,,
+1037999,,cache-misses,43776719,83.00,17.02,of all cache refs
+15,,context-switches,52559242,100.00,,
+3,,cpu-migrations,52559242,100.00,,
+2448,,page-faults,52559242,100.00,,
+138843438,,cycles,35286712,66.00,,
+141177241,,instructions,44286338,83.00,1.02,insn per cycle
+28369306,,branches,44837144,84.00,,
+982553,,branch-misses,43140147,80.00,3.46,of all branches
+6217884,,cache-references,44838580,84.00,,
+1080580,,cache-misses,45037025,84.00,17.38,of all cache refs
+16,,context-switches,53284902,100.00,,
+3,,cpu-migrations,53284902,100.00,,
+2443,,page-faults,53284902,100.00,,
+138651485,,cycles,34862883,66.00,,
+143472825,,instructions,43815893,83.00,1.03,insn per cycle
+29471168,,branches,43307344,82.00,,
+952271,,branch-misses,43555780,82.00,3.23,of all branches
+6135545,,cache-references,44763327,85.00,,
+1077491,,cache-misses,43944658,83.00,17.56,of all cache refs
+14,,context-switches,52608498,100.00,,
+2,,cpu-migrations,52608498,100.00,,
+2449,,page-faults,52608498,100.00,,
+138668885,,cycles,35183818,66.00,,
+143568448,,instructions,44068889,83.00,1.04,insn per cycle
+29454516,,branches,42901573,81.00,,
+955658,,branch-misses,44311849,84.00,3.24,of all branches
+6255087,,cache-references,44818005,84.00,,
+1083295,,cache-misses,43726299,82.00,17.32,of all cache refs
+14,,context-switches,52735386,100.00,,
+3,,cpu-migrations,52735386,100.00,,
+2453,,page-faults,52735386,100.00,,
+138554118,,cycles,35125285,66.00,,
+143244788,,instructions,43955592,83.00,1.03,insn per cycle
+28502844,,branches,44532423,84.00,,
+993704,,branch-misses,43303472,82.00,3.49,of all branches
+6191915,,cache-references,44668943,84.00,,
+1043440,,cache-misses,43124225,81.00,16.85,of all cache refs
+15,,context-switches,52688587,100.00,,
+4,,cpu-migrations,52688587,100.00,,
+2444,,page-faults,52688587,100.00,,
+140121129,,cycles,35248045,66.00,,
+139697521,,instructions,44185089,83.00,1.00,insn per cycle
+28741934,,branches,44661746,84.00,,
+980089,,branch-misses,43798576,82.00,3.41,of all branches
+6323993,,cache-references,44159539,83.00,,
+1065821,,cache-misses,44609142,83.00,16.85,of all cache refs
+16,,context-switches,53119262,100.00,,
+3,,cpu-migrations,53119262,100.00,,
+2448,,page-faults,53119262,100.00,,
+140444915,,cycles,35365511,67.00,,
+144488863,,instructions,44234702,83.00,1.03,insn per cycle
+29266913,,branches,43280739,82.00,,
+952173,,branch-misses,44547236,84.00,3.25,of all branches
+6247710,,cache-references,44016876,83.00,,
+1112761,,cache-misses,43800154,83.00,17.81,of all cache refs
+18,,context-switches,52752629,100.00,,
+4,,cpu-migrations,52752629,100.00,,
+2442,,page-faults,52752629,100.00,,
+138452500,,cycles,34988218,66.00,,
+142873557,,instructions,43813404,83.00,1.03,insn per cycle
+29283707,,branches,43232309,82.00,,
+954609,,branch-misses,43616270,83.00,3.26,of all branches
+6149853,,cache-references,44434003,84.00,,
+1078361,,cache-misses,43699296,83.00,17.53,of all cache refs
+15,,context-switches,52492524,100.00,,
+4,,cpu-migrations,52492524,100.00,,
+2450,,page-faults,52492524,100.00,,
+140075325,,cycles,35456390,66.00,,
+143057014,,instructions,44374045,83.00,1.02,insn per cycle
+27912304,,branches,44482151,83.00,,
+983612,,branch-misses,44258824,83.00,3.52,of all branches
+6097492,,cache-references,44846422,84.00,,
+1072699,,cache-misses,44219353,82.00,17.59,of all cache refs
+14,,context-switches,53315785,100.00,,
+2,,cpu-migrations,53315785,100.00,,
+2451,,page-faults,53315785,100.00,,
+138024728,,cycles,35012386,66.00,,
+141460665,,instructions,43866864,83.00,1.02,insn per cycle
+29186482,,branches,43583484,82.00,,
+953679,,branch-misses,44057458,83.00,3.27,of all branches
+6193252,,cache-references,44005834,83.00,,
+1070104,,cache-misses,43897838,83.00,17.28,of all cache refs
+15,,context-switches,52639250,100.00,,
+2,,cpu-migrations,52639250,100.00,,
+2449,,page-faults,52639250,100.00,,
+138240755,,cycles,34838937,66.00,,
+141479348,,instructions,43679124,83.00,1.02,insn per cycle
+28370077,,branches,44358415,84.00,,
+974123,,branch-misses,43037459,81.00,3.43,of all branches
+6127458,,cache-references,44396429,84.00,,
+1042922,,cache-misses,43728956,83.00,17.02,of all cache refs
+14,,context-switches,52590049,100.00,,
+2,,cpu-migrations,52590049,100.00,,
+2443,,page-faults,52590049,100.00,,
+140002809,,cycles,35509811,66.00,,
+140806050,,instructions,44463486,83.00,1.01,insn per cycle
+28465564,,branches,44916142,83.00,,
+984074,,branch-misses,44155191,82.00,3.46,of all branches
+6192958,,cache-references,44163996,82.00,,
+1039461,,cache-misses,45163516,84.00,16.78,of all cache refs
+14,,context-switches,53477164,100.00,,
+4,,cpu-migrations,53477164,100.00,,
+2451,,page-faults,53477164,100.00,,
+140881220,,cycles,35486611,66.00,,
+142417496,,instructions,44316009,83.00,1.01,insn per cycle
+27979110,,branches,44554501,83.00,,
+987238,,branch-misses,44231488,82.00,3.53,of all branches
+6211573,,cache-references,44426309,83.00,,
+1054153,,cache-misses,44595379,83.00,16.97,of all cache refs
+17,,context-switches,53323572,100.00,,
+5,,cpu-migrations,53323572,100.00,,
+2448,,page-faults,53323572,100.00,,
+138463125,,cycles,34958070,66.00,,
+141324992,,instructions,43875357,83.00,1.02,insn per cycle
+29195542,,branches,43506740,82.00,,
+955002,,branch-misses,43372005,82.00,3.27,of all branches
+6207345,,cache-references,44453098,84.00,,
+1073125,,cache-misses,43791511,83.00,17.29,of all cache refs
+14,,context-switches,52520356,100.00,,
+5,,cpu-migrations,52520356,100.00,,
+2447,,page-faults,52520356,100.00,,
+139781753,,cycles,35351642,66.00,,
+141906856,,instructions,44168369,83.00,1.02,insn per cycle
+27924950,,branches,44313974,83.00,,
+973839,,branch-misses,44094373,82.00,3.49,of all branches
+6105154,,cache-references,44110224,82.00,,
+1051720,,cache-misses,44808587,84.00,17.23,of all cache refs
+14,,context-switches,53169700,100.00,,
+3,,cpu-migrations,53169700,100.00,,
+2449,,page-faults,53169700,100.00,,
+138960818,,cycles,35038279,66.00,,
+142332052,,instructions,43899166,83.00,1.02,insn per cycle
+29129294,,branches,43628110,82.00,,
+961341,,branch-misses,43849803,83.00,3.30,of all branches
+6188740,,cache-references,44547937,84.00,,
+1086240,,cache-misses,43880523,83.00,17.55,of all cache refs
+14,,context-switches,52736163,100.00,,
+4,,cpu-migrations,52736163,100.00,,
+2448,,page-faults,52736163,100.00,,
+139175844,,cycles,35175563,66.00,,
+143666045,,instructions,44109782,83.00,1.03,insn per cycle
+29372711,,branches,43410413,82.00,,
+966741,,branch-misses,44163166,83.00,3.29,of all branches
+6338227,,cache-references,45053529,85.00,,
+1106858,,cache-misses,43882041,82.00,17.46,of all cache refs
+14,,context-switches,52921178,100.00,,
+1,,cpu-migrations,52921178,100.00,,
+2445,,page-faults,52921178,100.00,,
+139919699,,cycles,35179931,66.00,,
+140534143,,instructions,44179192,83.00,1.00,insn per cycle
+28629752,,branches,45113773,84.00,,
+994001,,branch-misses,43203183,81.00,3.47,of all branches
+6334125,,cache-references,44330914,83.00,,
+1069938,,cache-misses,44952123,84.00,16.89,of all cache refs
+15,,context-switches,53194981,100.00,,
+3,,cpu-migrations,53194981,100.00,,
+2445,,page-faults,53194981,100.00,,
+140109954,,cycles,35354247,66.00,,
+140128198,,instructions,44433307,83.00,1.00,insn per cycle
+28735161,,branches,44731825,83.00,,
+985318,,branch-misses,43159027,80.00,3.43,of all branches
+6227375,,cache-references,44804791,83.00,,
+1084090,,cache-misses,45312182,84.00,17.41,of all cache refs
+16,,context-switches,53340518,100.00,,
+2,,cpu-migrations,53340518,100.00,,
+2452,,page-faults,53340518,100.00,,
+140655025,,cycles,34901277,65.00,,
+146933338,,instructions,44231165,83.00,1.04,insn per cycle
+29249473,,branches,44369167,83.00,,
+973591,,branch-misses,44445916,83.00,3.33,of all branches
+6295108,,cache-references,45167793,85.00,,
+1109339,,cache-misses,43555827,82.00,17.62,of all cache refs
+16,,context-switches,53109995,100.00,,
+4,,cpu-migrations,53109995,100.00,,
+2451,,page-faults,53109995,100.00,,
+140116019,,cycles,35409890,66.00,,
+141532966,,instructions,44354724,83.00,1.01,insn per cycle
+29361232,,branches,43876540,82.00,,
+967139,,branch-misses,44016883,82.00,3.29,of all branches
+6265074,,cache-references,45171347,84.00,,
+1066592,,cache-misses,44373388,83.00,17.02,of all cache refs
+15,,context-switches,53212012,100.00,,
+3,,cpu-migrations,53212012,100.00,,
+2442,,page-faults,53212012,100.00,,
+140045796,,cycles,35651671,66.00,,
+139861767,,instructions,44659899,83.00,1.00,insn per cycle
+28602549,,branches,44849627,83.00,,
+978772,,branch-misses,43939063,81.00,3.42,of all branches
+6173094,,cache-references,45040631,83.00,,
+1057912,,cache-misses,45194128,84.00,17.14,of all cache refs
+14,,context-switches,53668780,100.00,,
+7,,cpu-migrations,53668780,100.00,,
+2445,,page-faults,53668780,100.00,,
+139703309,,cycles,34858620,65.00,,
+140488064,,instructions,43897521,82.00,1.01,insn per cycle
+29000601,,branches,44385727,83.00,,
+974611,,branch-misses,43640818,82.00,3.36,of all branches
+6284611,,cache-references,43930212,83.00,,
+1053787,,cache-misses,44863935,84.00,16.77,of all cache refs
+14,,context-switches,52919828,100.00,,
+3,,cpu-migrations,52919828,100.00,,
+2443,,page-faults,52919828,100.00,,
+139829093,,cycles,35091915,66.00,,
+139726096,,instructions,44022137,83.00,1.00,insn per cycle
+28761507,,branches,44083935,83.00,,
+966903,,branch-misses,44339585,83.00,3.36,of all branches
+6254350,,cache-references,44240200,83.00,,
+1050098,,cache-misses,44133369,83.00,16.79,of all cache refs
+17,,context-switches,52972251,100.00,,
+2,,cpu-migrations,52972251,100.00,,
+2449,,page-faults,52972251,100.00,,
+139766492,,cycles,35150431,66.00,,
+144618136,,instructions,44085646,83.00,1.03,insn per cycle
+29734547,,branches,43120001,81.00,,
+963933,,branch-misses,44317323,83.00,3.24,of all branches
+6289544,,cache-references,44814876,84.00,,
+1114955,,cache-misses,43932181,83.00,17.73,of all cache refs
+17,,context-switches,52833703,100.00,,
+4,,cpu-migrations,52833703,100.00,,
+2449,,page-faults,52833703,100.00,,
+141626905,,cycles,34985979,66.00,,
+142680596,,instructions,43872305,83.00,1.01,insn per cycle
+29569128,,branches,43613140,82.00,,
+969704,,branch-misses,43930502,83.00,3.28,of all branches
+6314126,,cache-references,44261273,83.00,,
+1100636,,cache-misses,44241810,83.00,17.43,of all cache refs
+15,,context-switches,52758176,100.00,,
+4,,cpu-migrations,52758176,100.00,,
+2448,,page-faults,52758176,100.00,,
+140324757,,cycles,35958767,66.00,,
+140160330,,instructions,44745774,83.00,1.00,insn per cycle
+29200447,,branches,43728461,81.00,,
+954775,,branch-misses,44760565,83.00,3.27,of all branches
+6233828,,cache-references,45551431,84.00,,
+1078163,,cache-misses,44884860,83.00,17.30,of all cache refs
+15,,context-switches,53721021,100.00,,
+5,,cpu-migrations,53721021,100.00,,
+2441,,page-faults,53721021,100.00,,
+140246378,,cycles,35508725,66.00,,
+141898887,,instructions,44376059,83.00,1.01,insn per cycle
+27853140,,branches,44454804,83.00,,
+986658,,branch-misses,44006948,82.00,3.54,of all branches
+6027669,,cache-references,44303084,83.00,,
+1054537,,cache-misses,44901487,84.00,17.49,of all cache refs
+15,,context-switches,53293762,100.00,,
+5,,cpu-migrations,53293762,100.00,,
+2446,,page-faults,53293762,100.00,,
+139890716,,cycles,35122217,66.00,,
+142183000,,instructions,44035889,82.00,1.02,insn per cycle
+29311309,,branches,43823531,82.00,,
+963187,,branch-misses,44751367,84.00,3.29,of all branches
+6329792,,cache-references,44311586,83.00,,
+1070448,,cache-misses,44512647,83.00,16.91,of all cache refs
+13,,context-switches,53130337,100.00,,
+3,,cpu-migrations,53130337,100.00,,
+2446,,page-faults,53130337,100.00,,
+140257956,,cycles,34734706,66.00,,
+140180592,,instructions,43616231,83.00,1.00,insn per cycle
+28471542,,branches,44022253,83.00,,
+977256,,branch-misses,43773394,83.00,3.43,of all branches
+6135705,,cache-references,43792049,83.00,,
+1014179,,cache-misses,43682982,83.00,16.53,of all cache refs
+15,,context-switches,52501346,100.00,,
+4,,cpu-migrations,52501346,100.00,,
+2448,,page-faults,52501346,100.00,,
+139075337,,cycles,35354629,66.00,,
+142230352,,instructions,44100307,83.00,1.02,insn per cycle
+28382991,,branches,44235904,83.00,,
+961519,,branch-misses,44424459,83.00,3.39,of all branches
+6208758,,cache-references,44131307,83.00,,
+1049957,,cache-misses,44034837,83.00,16.91,of all cache refs
+14,,context-switches,53045284,100.00,,
+3,,cpu-migrations,53045284,100.00,,
+2442,,page-faults,53045284,100.00,,
+139909645,,cycles,34770359,65.00,,
+144224970,,instructions,43664911,82.00,1.03,insn per cycle
+29650371,,branches,43632144,82.00,,
+955111,,branch-misses,44518765,84.00,3.22,of all branches
+6276989,,cache-references,44809141,85.00,,
+1081739,,cache-misses,43106647,81.00,17.23,of all cache refs
+14,,context-switches,52709264,100.00,,
+3,,cpu-migrations,52709264,100.00,,
+2451,,page-faults,52709264,100.00,,
+139792179,,cycles,35401028,66.00,,
+141953429,,instructions,44422508,83.00,1.02,insn per cycle
+28623261,,branches,44782169,83.00,,
+979787,,branch-misses,43688764,81.00,3.42,of all branches
+6242362,,cache-references,44859538,83.00,,
+1072755,,cache-misses,44968549,84.00,17.19,of all cache refs
+15,,context-switches,53425012,100.00,,
+3,,cpu-migrations,53425012,100.00,,
+2448,,page-faults,53425012,100.00,,
+138434160,,cycles,35831673,67.00,,
+144746306,,instructions,45176598,85.00,1.05,insn per cycle
+29568356,,branches,43646407,82.00,,
+974601,,branch-misses,44070145,83.00,3.30,of all branches
+6162314,,cache-references,45159028,85.00,,
+1089283,,cache-misses,43474999,81.00,17.68,of all cache refs
+15,,context-switches,53045563,100.00,,
+4,,cpu-migrations,53045563,100.00,,
+2445,,page-faults,53045563,100.00,,
+139897575,,cycles,34211120,64.00,,
+149471043,,instructions,42779727,80.00,1.07,insn per cycle
+29419837,,branches,43525273,82.00,,
+971964,,branch-misses,44763281,84.00,3.30,of all branches
+6348496,,cache-references,44943931,85.00,,
+1118498,,cache-misses,44011011,83.00,17.62,of all cache refs
+14,,context-switches,52863654,100.00,,
+3,,cpu-migrations,52863654,100.00,,
+2439,,page-faults,52863654,100.00,,
+140554515,,cycles,35391356,66.00,,
+140050589,,instructions,44408453,83.00,1.00,insn per cycle
+28939470,,branches,44042382,82.00,,
+975428,,branch-misses,44468604,83.00,3.37,of all branches
+6274547,,cache-references,44752004,83.00,,
+1071484,,cache-misses,45068578,84.00,17.08,of all cache refs
+14,,context-switches,53430731,100.00,,
+4,,cpu-migrations,53430731,100.00,,
+2448,,page-faults,53430731,100.00,,
+138782047,,cycles,34711606,65.00,,
+142079407,,instructions,43622451,82.00,1.02,insn per cycle
+28178425,,branches,43785854,83.00,,
+976639,,branch-misses,43938029,83.00,3.47,of all branches
+6201065,,cache-references,44008708,83.00,,
+1069057,,cache-misses,44042035,83.00,17.24,of all cache refs
+15,,context-switches,52621558,100.00,,
+3,,cpu-migrations,52621558,100.00,,
+2448,,page-faults,52621558,100.00,,
+139437015,,cycles,35318175,66.00,,
+141079635,,instructions,44300854,83.00,1.01,insn per cycle
+28096451,,branches,44259841,83.00,,
+987546,,branch-misses,44386711,83.00,3.51,of all branches
+6127327,,cache-references,44384873,83.00,,
+1095236,,cache-misses,44274892,83.00,17.87,of all cache refs
+14,,context-switches,53156123,100.00,,
+5,,cpu-migrations,53156123,100.00,,
+2448,,page-faults,53156123,100.00,,
+139391717,,cycles,35010705,65.00,,
+141665730,,instructions,43949144,82.00,1.02,insn per cycle
+29106207,,branches,44108904,82.00,,
+957539,,branch-misses,44068177,82.00,3.29,of all branches
+6198237,,cache-references,45108242,84.00,,
+1048021,,cache-misses,44485184,83.00,16.91,of all cache refs
+15,,context-switches,53195303,100.00,,
+4,,cpu-migrations,53195303,100.00,,
+2452,,page-faults,53195303,100.00,,
+139527689,,cycles,35504976,66.00,,
+142168991,,instructions,44471410,83.00,1.02,insn per cycle
+28531938,,branches,44893664,83.00,,
+976392,,branch-misses,44058581,82.00,3.42,of all branches
+6295978,,cache-references,44558005,83.00,,
+1077514,,cache-misses,45010782,84.00,17.11,of all cache refs
+15,,context-switches,53506502,100.00,,
+3,,cpu-migrations,53506502,100.00,,
+2441,,page-faults,53506502,100.00,,
+143867510,,cycles,37031732,67.00,,
+143726794,,instructions,46179351,84.00,1.00,insn per cycle
+28708818,,branches,46204658,84.00,,
+1096016,,branch-misses,45486381,82.00,3.82,of all branches
+6202308,,cache-references,45016725,81.00,,
+1073747,,cache-misses,46142344,83.00,17.31,of all cache refs
+14,,context-switches,54970460,100.00,,
+4,,cpu-migrations,54970460,100.00,,
+2443,,page-faults,54970460,100.00,,
+139562948,,cycles,34666702,65.00,,
+147901470,,instructions,43571462,82.00,1.06,insn per cycle
+29357242,,branches,44438849,83.00,,
+981850,,branch-misses,45046143,84.00,3.34,of all branches
+6282658,,cache-references,44159413,83.00,,
+1123651,,cache-misses,44077225,83.00,17.88,of all cache refs
+13,,context-switches,53097083,100.00,,
+1,,cpu-migrations,53097083,100.00,,
+2449,,page-faults,53097083,100.00,,
+139821944,,cycles,33926509,63.00,,
+148398794,,instructions,42896167,80.00,1.06,insn per cycle
+29068595,,branches,44419313,83.00,,
+969004,,branch-misses,44225651,83.00,3.33,of all branches
+6108693,,cache-references,45294620,85.00,,
+1115306,,cache-misses,44597399,83.00,18.26,of all cache refs
+14,,context-switches,53115873,100.00,,
+3,,cpu-migrations,53115873,100.00,,
+2451,,page-faults,53115873,100.00,,
+137680824,,cycles,36278362,69.00,,
+145731804,,instructions,44126304,84.00,1.06,insn per cycle
+29361054,,branches,42479063,81.00,,
+985895,,branch-misses,42260436,81.00,3.36,of all branches
+6296970,,cache-references,44077379,84.00,,
+1089646,,cache-misses,42881344,82.00,17.30,of all cache refs
+13,,context-switches,51994146,100.00,,
+5,,cpu-migrations,51994146,100.00,,
+2446,,page-faults,51994146,100.00,,
+140342923,,cycles,35340341,66.00,,
+143873001,,instructions,44295893,83.00,1.03,insn per cycle
+29425500,,branches,43949753,82.00,,
+965615,,branch-misses,43932715,82.00,3.28,of all branches
+6206006,,cache-references,44297119,83.00,,
+1113652,,cache-misses,44948176,84.00,17.94,of all cache refs
+14,,context-switches,53117026,100.00,,
+4,,cpu-migrations,53117026,100.00,,
+2452,,page-faults,53117026,100.00,,
+138173233,,cycles,35169210,67.00,,
+141771718,,instructions,44073175,84.00,1.03,insn per cycle
+29016387,,branches,44016217,84.00,,
+963483,,branch-misses,43593534,83.00,3.32,of all branches
+6229811,,cache-references,42520147,81.00,,
+1075307,,cache-misses,43239128,82.00,17.26,of all cache refs
+14,,context-switches,52134559,100.00,,
+4,,cpu-migrations,52134559,100.00,,
+2451,,page-faults,52134559,100.00,,
+140265537,,cycles,35249927,66.00,,
+140398792,,instructions,44241800,83.00,1.00,insn per cycle
+28401325,,branches,44548598,83.00,,
+981957,,branch-misses,44066158,82.00,3.46,of all branches
+6264315,,cache-references,44055691,82.00,,
+1081482,,cache-misses,45190250,84.00,17.26,of all cache refs
+15,,context-switches,53277656,100.00,,
+3,,cpu-migrations,53277656,100.00,,
+2442,,page-faults,53277656,100.00,,
+140409419,,cycles,35925913,66.00,,
+140150341,,instructions,44727438,83.00,1.00,insn per cycle
+29275951,,branches,43880233,81.00,,
+965524,,branch-misses,44628050,83.00,3.30,of all branches
+6252990,,cache-references,45469569,84.00,,
+1063694,,cache-misses,44784175,83.00,17.01,of all cache refs
+15,,context-switches,53671985,100.00,,
+4,,cpu-migrations,53671985,100.00,,
+2448,,page-faults,53671985,100.00,,
+138629676,,cycles,35257195,66.00,,
+138712315,,instructions,44110039,83.00,1.00,insn per cycle
+28867766,,branches,43297767,81.00,,
+967450,,branch-misses,44405751,83.00,3.35,of all branches
+6127436,,cache-references,44912536,84.00,,
+1028389,,cache-misses,43912491,82.00,16.78,of all cache refs
+14,,context-switches,52946435,100.00,,
+6,,cpu-migrations,52946435,100.00,,
+2444,,page-faults,52946435,100.00,,
+138168258,,cycles,34420293,65.00,,
+141234696,,instructions,43384224,82.00,1.02,insn per cycle
+27896602,,branches,43666098,83.00,,
+972656,,branch-misses,43371867,82.00,3.49,of all branches
+6196741,,cache-references,44131800,84.00,,
+1054870,,cache-misses,43958890,83.00,17.02,of all cache refs
+15,,context-switches,52387237,100.00,,
+4,,cpu-migrations,52387237,100.00,,
+2446,,page-faults,52387237,100.00,,
+138148595,,cycles,35165470,66.00,,
+141407953,,instructions,44018940,83.00,1.02,insn per cycle
+28532841,,branches,44075471,83.00,,
+976554,,branch-misses,43442427,82.00,3.42,of all branches
+6101517,,cache-references,44991050,85.00,,
+1040242,,cache-misses,43945570,83.00,17.05,of all cache refs
+16,,context-switches,52904997,100.00,,
+3,,cpu-migrations,52904997,100.00,,
+2451,,page-faults,52904997,100.00,,
+139667579,,cycles,35611009,66.00,,
+142623578,,instructions,44672858,83.00,1.02,insn per cycle
+29416047,,branches,44025310,82.00,,
+962828,,branch-misses,44424173,83.00,3.27,of all branches
+6243014,,cache-references,45376464,85.00,,
+1084416,,cache-misses,43916920,82.00,17.37,of all cache refs
+14,,context-switches,53338469,100.00,,
+4,,cpu-migrations,53338469,100.00,,
+2449,,page-faults,53338469,100.00,,
+139791197,,cycles,35170327,66.00,,
+142762272,,instructions,44053720,83.00,1.02,insn per cycle
+28755276,,branches,43104054,81.00,,
+971189,,branch-misses,44627623,84.00,3.38,of all branches
+6229531,,cache-references,45059838,85.00,,
+1038258,,cache-misses,43967166,82.00,16.67,of all cache refs
+15,,context-switches,52982252,100.00,,
+3,,cpu-migrations,52982252,100.00,,
+2449,,page-faults,52982252,100.00,,
+139318619,,cycles,35090090,66.00,,
+139839525,,instructions,44116149,83.00,1.00,insn per cycle
+28448030,,branches,44619769,84.00,,
+983939,,branch-misses,43849242,82.00,3.46,of all branches
+6248302,,cache-references,43956591,82.00,,
+1052675,,cache-misses,44950912,84.00,16.85,of all cache refs
+14,,context-switches,53116651,100.00,,
+3,,cpu-migrations,53116651,100.00,,
+2447,,page-faults,53116651,100.00,,
+139311577,,cycles,34415595,66.00,,
+140601329,,instructions,43947383,84.00,1.01,insn per cycle
+29425169,,branches,42957098,82.00,,
+964292,,branch-misses,42851339,82.00,3.28,of all branches
+6201979,,cache-references,43934743,84.00,,
+1075873,,cache-misses,43632777,83.00,17.35,of all cache refs
+14,,context-switches,51947888,100.00,,
+3,,cpu-migrations,51947888,100.00,,
+2445,,page-faults,51947888,100.00,,
+140686942,,cycles,35254933,66.00,,
+141913941,,instructions,44267135,83.00,1.01,insn per cycle
+29272827,,branches,43624910,81.00,,
+963235,,branch-misses,44394690,83.00,3.29,of all branches
+6256034,,cache-references,44802531,84.00,,
+1086066,,cache-misses,44916972,84.00,17.36,of all cache refs
+14,,context-switches,53248509,100.00,,
+3,,cpu-migrations,53248509,100.00,,
+2447,,page-faults,53248509,100.00,,
+139901079,,cycles,35178147,66.00,,
+141854324,,instructions,44067666,83.00,1.01,insn per cycle
+28422101,,branches,43893174,82.00,,
+972863,,branch-misses,43615386,82.00,3.42,of all branches
+6195378,,cache-references,45007425,85.00,,
+1057703,,cache-misses,43963548,83.00,17.07,of all cache refs
+19,,context-switches,52914420,100.00,,
+2,,cpu-migrations,52914420,100.00,,
+2442,,page-faults,52914420,100.00,,
+139511434,,cycles,34967617,66.00,,
+140886757,,instructions,43956431,83.00,1.01,insn per cycle
+28776827,,branches,44302423,83.00,,
+963658,,branch-misses,44071979,83.00,3.35,of all branches
+6186068,,cache-references,44902298,84.00,,
+1038795,,cache-misses,43368479,81.00,16.79,of all cache refs
+15,,context-switches,52903199,100.00,,
+2,,cpu-migrations,52903199,100.00,,
+2446,,page-faults,52903199,100.00,,
+137912855,,cycles,35268384,67.00,,
+140184272,,instructions,44144543,84.00,1.02,insn per cycle
+29317654,,branches,42975667,82.00,,
+957940,,branch-misses,43097993,82.00,3.27,of all branches
+6328339,,cache-references,44230165,84.00,,
+1085849,,cache-misses,43550999,83.00,17.16,of all cache refs
+15,,context-switches,52280802,100.00,,
+4,,cpu-migrations,52280802,100.00,,
+2442,,page-faults,52280802,100.00,,
+140833400,,cycles,35204690,66.00,,
+138663862,,instructions,44234568,83.00,0.98,insn per cycle
+28688722,,branches,44411041,83.00,,
+986727,,branch-misses,43203870,81.00,3.44,of all branches
+6214562,,cache-references,45035355,84.00,,
+1082553,,cache-misses,45116276,84.00,17.42,of all cache refs
+15,,context-switches,53242808,100.00,,
+3,,cpu-migrations,53242808,100.00,,
+2449,,page-faults,53242808,100.00,,
+142135778,,cycles,35412833,65.00,,
+147077586,,instructions,44435004,82.00,1.03,insn per cycle
+29581601,,branches,44146459,82.00,,
+971211,,branch-misses,45692541,85.00,3.28,of all branches
+6233313,,cache-references,44822390,83.00,,
+1120411,,cache-misses,44705697,83.00,17.97,of all cache refs
+13,,context-switches,53694980,100.00,,
+3,,cpu-migrations,53694980,100.00,,
+2445,,page-faults,53694980,100.00,,
+139996788,,cycles,35542749,67.00,,
+142906601,,instructions,44687697,84.00,1.02,insn per cycle
+29360678,,branches,43834380,83.00,,
+963542,,branch-misses,43625024,82.00,3.28,of all branches
+6323248,,cache-references,43555000,82.00,,
+1122108,,cache-misses,44206023,83.00,17.75,of all cache refs
+14,,context-switches,52690794,100.00,,
+3,,cpu-migrations,52690794,100.00,,
+2451,,page-faults,52690794,100.00,,
+139064178,,cycles,34988138,65.00,,
+141891262,,instructions,44987565,84.00,1.02,insn per cycle
+29561376,,branches,43658110,82.00,,
+966741,,branch-misses,43506657,81.00,3.27,of all branches
+6264278,,cache-references,45146073,85.00,,
+1099995,,cache-misses,44956406,84.00,17.56,of all cache refs
+16,,context-switches,53063846,100.00,,
+3,,cpu-migrations,53063846,100.00,,
+2447,,page-faults,53063846,100.00,,
+141446139,,cycles,35777122,66.00,,
+140085301,,instructions,44722629,83.00,0.99,insn per cycle
+29189589,,branches,43756192,81.00,,
+971874,,branch-misses,45033393,83.00,3.33,of all branches
+6151682,,cache-references,45177458,84.00,,
+1076789,,cache-misses,45009443,83.00,17.50,of all cache refs
+14,,context-switches,53688402,100.00,,
+4,,cpu-migrations,53688402,100.00,,
+2452,,page-faults,53688402,100.00,,
+140590552,,cycles,34164844,63.00,,
+146074610,,instructions,42981631,80.00,1.04,insn per cycle
+29048655,,branches,44580682,83.00,,
+953680,,branch-misses,44919052,84.00,3.28,of all branches
+6302027,,cache-references,45565618,85.00,,
+1182531,,cache-misses,44433344,83.00,18.76,of all cache refs
+15,,context-switches,53415885,100.00,,
+5,,cpu-migrations,53415885,100.00,,
+2449,,page-faults,53415885,100.00,,
+139573220,,cycles,34739776,65.00,,
+140380145,,instructions,43728655,83.00,1.01,insn per cycle
+28696721,,branches,44225099,83.00,,
+974911,,branch-misses,43108251,81.00,3.40,of all branches
+6266729,,cache-references,44621026,84.00,,
+1059983,,cache-misses,44042032,83.00,16.91,of all cache refs
+15,,context-switches,52684046,100.00,,
+6,,cpu-migrations,52684046,100.00,,
+2444,,page-faults,52684046,100.00,,
+139979241,,cycles,35339928,66.00,,
+140485357,,instructions,44291591,83.00,1.00,insn per cycle
+28646427,,branches,44430200,83.00,,
+986976,,branch-misses,43715786,82.00,3.45,of all branches
+6248586,,cache-references,44473893,83.00,,
+1091754,,cache-misses,44981349,84.00,17.47,of all cache refs
+17,,context-switches,53235289,100.00,,
+4,,cpu-migrations,53235289,100.00,,
+2450,,page-faults,53235289,100.00,,
+138553671,,cycles,34873600,66.00,,
+140614457,,instructions,43826512,83.00,1.01,insn per cycle
+27654283,,branches,43548938,82.00,,
+983297,,branch-misses,43562876,82.00,3.56,of all branches
+6111729,,cache-references,43793711,83.00,,
+1082347,,cache-misses,44450211,84.00,17.71,of all cache refs
+14,,context-switches,52557334,100.00,,
+4,,cpu-migrations,52557334,100.00,,
+2446,,page-faults,52557334,100.00,,
+138401186,,cycles,35237910,66.00,,
+141538710,,instructions,44113785,83.00,1.02,insn per cycle
+28901908,,branches,43427098,81.00,,
+978682,,branch-misses,44316028,83.00,3.39,of all branches
+6187185,,cache-references,44913321,84.00,,
+1057467,,cache-misses,43992727,83.00,17.09,of all cache refs
+14,,context-switches,52971771,100.00,,
+4,,cpu-migrations,52971771,100.00,,
+2444,,page-faults,52971771,100.00,,
+140029688,,cycles,35532541,66.00,,
+143443180,,instructions,44336997,83.00,1.02,insn per cycle
+28023620,,branches,44461402,83.00,,
+986722,,branch-misses,44712462,83.00,3.52,of all branches
+6271788,,cache-references,43928845,82.00,,
+1102848,,cache-misses,44413810,83.00,17.58,of all cache refs
+16,,context-switches,53262265,100.00,,
+3,,cpu-migrations,53262265,100.00,,
+2446,,page-faults,53262265,100.00,,
+141807591,,cycles,36208814,67.00,,
+142388243,,instructions,45007396,83.00,1.00,insn per cycle
+27865904,,branches,44893952,83.00,,
+991523,,branch-misses,44498203,82.00,3.56,of all branches
+6168057,,cache-references,45061670,83.00,,
+1045163,,cache-misses,44868217,83.00,16.94,of all cache refs
+15,,context-switches,53882714,100.00,,
+2,,cpu-migrations,53882714,100.00,,
+2441,,page-faults,53882714,100.00,,
+139154476,,cycles,34893267,66.00,,
+142239187,,instructions,43788993,83.00,1.02,insn per cycle
+28522852,,branches,43947350,83.00,,
+976984,,branch-misses,43237129,82.00,3.43,of all branches
+6207105,,cache-references,44756003,84.00,,
+1068326,,cache-misses,43837419,83.00,17.21,of all cache refs
+15,,context-switches,52667792,100.00,,
+3,,cpu-migrations,52667792,100.00,,
+2449,,page-faults,52667792,100.00,,
+140147619,,cycles,35729304,66.00,,
+142064276,,instructions,44554921,83.00,1.01,insn per cycle
+28297756,,branches,44372169,83.00,,
+979662,,branch-misses,44584519,83.00,3.46,of all branches
+6184738,,cache-references,44591187,83.00,,
+1025816,,cache-misses,44543913,83.00,16.59,of all cache refs
+16,,context-switches,53455273,100.00,,
+3,,cpu-migrations,53455273,100.00,,
+2448,,page-faults,53455273,100.00,,
+139309655,,cycles,34162337,64.00,,
+149658722,,instructions,42769417,81.00,1.07,insn per cycle
+29093868,,branches,44230924,83.00,,
+975386,,branch-misses,43858411,83.00,3.35,of all branches
+6241940,,cache-references,44925991,85.00,,
+1117954,,cache-misses,43858813,83.00,17.91,of all cache refs
+14,,context-switches,52759119,100.00,,
+2,,cpu-migrations,52759119,100.00,,
+2447,,page-faults,52759119,100.00,,
+141034648,,cycles,33839185,63.00,,
+148594576,,instructions,42715835,79.00,1.05,insn per cycle
+29174298,,branches,44502131,83.00,,
+958816,,branch-misses,45184731,84.00,3.29,of all branches
+6146506,,cache-references,45754145,85.00,,
+1113139,,cache-misses,44614744,83.00,18.11,of all cache refs
+14,,context-switches,53473734,100.00,,
+2,,cpu-migrations,53473734,100.00,,
+2448,,page-faults,53473734,100.00,,
+140090174,,cycles,35574771,66.00,,
+140484877,,instructions,44579784,83.00,1.00,insn per cycle
+29052762,,branches,43694863,81.00,,
+964765,,branch-misses,44933222,84.00,3.32,of all branches
+6147078,,cache-references,45385615,84.00,,
+1029962,,cache-misses,44003461,82.00,16.76,of all cache refs
+14,,context-switches,53397983,100.00,,
+5,,cpu-migrations,53397983,100.00,,
+2443,,page-faults,53397983,100.00,,
+139184454,,cycles,34833171,66.00,,
+140359621,,instructions,43741655,82.00,1.01,insn per cycle
+28611667,,branches,44083525,83.00,,
+980945,,branch-misses,43731125,82.00,3.43,of all branches
+6309179,,cache-references,44585202,84.00,,
+1045918,,cache-misses,43855005,83.00,16.58,of all cache refs
+16,,context-switches,52772007,100.00,,
+6,,cpu-migrations,52772007,100.00,,
+2449,,page-faults,52772007,100.00,,
+139215259,,cycles,35337431,66.00,,
+138828751,,instructions,44270831,83.00,1.00,insn per cycle
+28781494,,branches,45015370,84.00,,
+976426,,branch-misses,42932046,80.00,3.39,of all branches
+6152613,,cache-references,44889436,84.00,,
+1063366,,cache-misses,44924165,84.00,17.28,of all cache refs
+15,,context-switches,53274612,100.00,,
+5,,cpu-migrations,53274612,100.00,,
+2443,,page-faults,53274612,100.00,,
+140139303,,cycles,35326677,66.00,,
+140979019,,instructions,44245943,83.00,1.01,insn per cycle
+27731042,,branches,44309159,83.00,,
+981985,,branch-misses,44358681,83.00,3.54,of all branches
+6174944,,cache-references,44198296,83.00,,
+1084385,,cache-misses,44783843,84.00,17.56,of all cache refs
+14,,context-switches,53244164,100.00,,
+5,,cpu-migrations,53244164,100.00,,
+2441,,page-faults,53244164,100.00,,
+139229411,,cycles,35171386,66.00,,
+138904182,,instructions,44058609,83.00,1.00,insn per cycle
+28773834,,branches,43943502,82.00,,
+968238,,branch-misses,44366216,83.00,3.36,of all branches
+6180708,,cache-references,44283645,83.00,,
+1048605,,cache-misses,44260879,83.00,16.97,of all cache refs
+13,,context-switches,53006407,100.00,,
+5,,cpu-migrations,53006407,100.00,,
+2445,,page-faults,53006407,100.00,,
+139594539,,cycles,34870481,66.00,,
+141031832,,instructions,43790636,83.00,1.01,insn per cycle
+29199446,,branches,43605592,82.00,,
+951688,,branch-misses,44581200,84.00,3.26,of all branches
+6175708,,cache-references,44800921,84.00,,
+1053471,,cache-misses,43114162,81.00,17.06,of all cache refs
+14,,context-switches,52743089,100.00,,
+4,,cpu-migrations,52743089,100.00,,
+2444,,page-faults,52743089,100.00,,
+138895789,,cycles,33926917,65.00,,
+142302823,,instructions,42950480,82.00,1.02,insn per cycle
+28179367,,branches,43695759,83.00,,
+981287,,branch-misses,43607434,83.00,3.48,of all branches
+6137427,,cache-references,43102077,82.00,,
+1046194,,cache-misses,43858781,84.00,17.05,of all cache refs
+16,,context-switches,52047742,100.00,,
+4,,cpu-migrations,52047742,100.00,,
+2441,,page-faults,52047742,100.00,,
+139987507,,cycles,35346717,67.00,,
+140192350,,instructions,44339051,84.00,1.00,insn per cycle
+29241699,,branches,43078312,82.00,,
+956810,,branch-misses,43784051,83.00,3.27,of all branches
+6393253,,cache-references,43772943,83.00,,
+1067764,,cache-misses,44150805,84.00,16.70,of all cache refs
+16,,context-switches,52533207,100.00,,
+1,,cpu-migrations,52533207,100.00,,
+2446,,page-faults,52533207,100.00,,
+140720983,,cycles,35243691,65.00,,
+146524843,,instructions,44240901,82.00,1.04,insn per cycle
+29313547,,branches,44440885,83.00,,
+976014,,branch-misses,44743062,83.00,3.33,of all branches
+6182051,,cache-references,45659878,85.00,,
+1076040,,cache-misses,43843036,81.00,17.41,of all cache refs
+15,,context-switches,53482638,100.00,,
+3,,cpu-migrations,53482638,100.00,,
+2443,,page-faults,53482638,100.00,,
+138841476,,cycles,35039503,66.00,,
+139331112,,instructions,43981481,83.00,1.00,insn per cycle
+28766803,,branches,43880323,82.00,,
+974710,,branch-misses,43704939,82.00,3.39,of all branches
+6118632,,cache-references,44770144,84.00,,
+1031984,,cache-misses,44231695,83.00,16.87,of all cache refs
+13,,context-switches,52906651,100.00,,
+4,,cpu-migrations,52906651,100.00,,
+2445,,page-faults,52906651,100.00,,
+140669626,,cycles,35444972,66.00,,
+141136935,,instructions,44343159,83.00,1.00,insn per cycle
+27928434,,branches,44408587,83.00,,
+994437,,branch-misses,44055823,82.00,3.56,of all branches
+6127174,,cache-references,44678010,83.00,,
+1076319,,cache-misses,44961692,84.00,17.57,of all cache refs
+15,,context-switches,53387271,100.00,,
+4,,cpu-migrations,53387271,100.00,,
+2449,,page-faults,53387271,100.00,,
+138793566,,cycles,34846288,65.00,,
+140652209,,instructions,43891492,83.00,1.01,insn per cycle
+28262677,,branches,43792106,82.00,,
+976971,,branch-misses,43704792,82.00,3.46,of all branches
+6134362,,cache-references,44723443,84.00,,
+1032218,,cache-misses,44197951,83.00,16.83,of all cache refs
+16,,context-switches,52816145,100.00,,
+3,,cpu-migrations,52816145,100.00,,
+2450,,page-faults,52816145,100.00,,
+140414833,,cycles,34764563,65.00,,
+139970984,,instructions,43779477,83.00,1.00,insn per cycle
+28776282,,branches,44355028,84.00,,
+984044,,branch-misses,43460167,82.00,3.42,of all branches
+6237336,,cache-references,43666901,82.00,,
+1065223,,cache-misses,44665729,84.00,17.08,of all cache refs
+15,,context-switches,52728097,100.00,,
+3,,cpu-migrations,52728097,100.00,,
+2446,,page-faults,52728097,100.00,,
+138835657,,cycles,34865373,66.00,,
+141653549,,instructions,43817381,83.00,1.02,insn per cycle
+28906091,,branches,43242979,81.00,,
+970138,,branch-misses,44051168,83.00,3.36,of all branches
+6127574,,cache-references,44837161,84.00,,
+1048029,,cache-misses,44018547,83.00,17.10,of all cache refs
+16,,context-switches,52753807,100.00,,
+2,,cpu-migrations,52753807,100.00,,
+2450,,page-faults,52753807,100.00,,
+140131822,,cycles,35386962,66.00,,
+142140711,,instructions,44324950,83.00,1.01,insn per cycle
+27903319,,branches,44232064,82.00,,
+989557,,branch-misses,44642920,83.00,3.55,of all branches
+6140642,,cache-references,44008157,82.00,,
+1056069,,cache-misses,44993989,84.00,17.20,of all cache refs
+14,,context-switches,53316023,100.00,,
+1,,cpu-migrations,53316023,100.00,,
+2448,,page-faults,53316023,100.00,,
+139138304,,cycles,33750323,64.00,,
+148065681,,instructions,42534670,80.00,1.06,insn per cycle
+29164477,,branches,44279027,84.00,,
+981571,,branch-misses,44033634,83.00,3.37,of all branches
+6301862,,cache-references,44751967,84.00,,
+1106887,,cache-misses,43965785,83.00,17.56,of all cache refs
+15,,context-switches,52695184,100.00,,
+3,,cpu-migrations,52695184,100.00,,
+2446,,page-faults,52695184,100.00,,
+138572048,,cycles,34700897,65.00,,
+140843080,,instructions,43740856,83.00,1.02,insn per cycle
+28524865,,branches,44185204,83.00,,
+976496,,branch-misses,43137588,81.00,3.42,of all branches
+6166931,,cache-references,44640769,84.00,,
+1021069,,cache-misses,44040202,83.00,16.56,of all cache refs
+14,,context-switches,52676165,100.00,,
+1,,cpu-migrations,52676165,100.00,,
+2444,,page-faults,52676165,100.00,,
+139770337,,cycles,34916522,66.00,,
+140919839,,instructions,44146756,84.00,1.01,insn per cycle
+29529092,,branches,43124931,82.00,,
+965748,,branch-misses,43102526,82.00,3.27,of all branches
+6251526,,cache-references,44055233,84.00,,
+1063188,,cache-misses,43346612,83.00,17.01,of all cache refs
+15,,context-switches,52136456,100.00,,
+3,,cpu-migrations,52136456,100.00,,
+2446,,page-faults,52136456,100.00,,
+141337417,,cycles,35556087,66.00,,
+142343073,,instructions,44444487,83.00,1.01,insn per cycle
+27857031,,branches,44495057,83.00,,
+992415,,branch-misses,44495588,83.00,3.56,of all branches
+6110994,,cache-references,44504127,83.00,,
+1048240,,cache-misses,44709705,83.00,17.15,of all cache refs
+14,,context-switches,53440141,100.00,,
+3,,cpu-migrations,53440141,100.00,,
+2445,,page-faults,53440141,100.00,,
+140012772,,cycles,34746279,65.00,,
+140895241,,instructions,43840490,82.00,1.01,insn per cycle
+28680718,,branches,44471849,84.00,,
+979848,,branch-misses,43318076,81.00,3.42,of all branches
+6207610,,cache-references,44092607,83.00,,
+1042014,,cache-misses,45043465,85.00,16.79,of all cache refs
+15,,context-switches,52918069,100.00,,
+3,,cpu-migrations,52918069,100.00,,
+2443,,page-faults,52918069,100.00,,
+139972182,,cycles,34774575,65.00,,
+139611775,,instructions,43871371,82.00,1.00,insn per cycle
+28528325,,branches,44586763,84.00,,
+981189,,branch-misses,43094712,81.00,3.44,of all branches
+6185083,,cache-references,44301010,83.00,,
+1038205,,cache-misses,45001452,85.00,16.79,of all cache refs
+13,,context-switches,52939628,100.00,,
+3,,cpu-migrations,52939628,100.00,,
+2443,,page-faults,52939628,100.00,,

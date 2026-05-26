@@ -1,0 +1,192 @@
+APX1090A
+
+                                                      QUERY PLAN
+----------------------------------------------------------------------------------------------------------------------
+ Seq Scan on lineitem  (cost=0.00..187576.19 rows=688534 width=117) (actual time=6.041..1076.569 rows=686842 loops=1)
+   Filter: (l_shipdate >= '1998-01-01'::date)
+   Rows Removed by Filter: 5314373
+ Planning Time: 0.148 ms
+ JIT:
+   Functions: 2
+   Options: Inlining false, Optimization false, Expressions true, Deforming true
+   Timing: Generation 0.616 ms, Inlining 0.000 ms, Optimization 0.563 ms, Emission 5.367 ms, Total 6.546 ms
+ Execution Time: 1098.112 ms
+(9 rows)
+
+
+APX1090B
+
+                                                     QUERY PLAN
+---------------------------------------------------------------------------------------------------------------------
+ Seq Scan on lineitem  (cost=0.00..187576.19 rows=688534 width=20) (actual time=8.147..1096.780 rows=686842 loops=1)
+   Filter: (l_shipdate >= '1998-01-01'::date)
+   Rows Removed by Filter: 5314373
+ Planning Time: 0.102 ms
+ JIT:
+   Functions: 4
+   Options: Inlining false, Optimization false, Expressions true, Deforming true
+   Timing: Generation 1.038 ms, Inlining 0.000 ms, Optimization 0.892 ms, Emission 7.154 ms, Total 9.084 ms
+ Execution Time: 1118.545 ms
+(9 rows)
+
+
+APX1092A
+
+                                                                      QUERY PLAN
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+ Finalize GroupAggregate  (cost=157476.20..160112.59 rows=3337 width=36) (actual time=1414.357..1451.845 rows=6311 loops=1)
+   Group Key: l_suppkey
+   Filter: (sum(l_quantity) > '15000'::numeric)
+   Rows Removed by Filter: 3189
+   ->  Gather Merge  (cost=157476.20..159812.26 rows=20022 width=36) (actual time=1414.292..1433.937 rows=28500 loops=1)
+         Workers Planned: 2
+         Workers Launched: 2
+         ->  Sort  (cost=156476.17..156501.20 rows=10011 width=36) (actual time=1390.806..1392.171 rows=9500 loops=3)
+               Sort Key: l_suppkey
+               Sort Method: quicksort  Memory: 1275kB
+               Worker 0:  Sort Method: quicksort  Memory: 1275kB
+               Worker 1:  Sort Method: quicksort  Memory: 1275kB
+               ->  Partial HashAggregate  (cost=155685.84..155810.98 rows=10011 width=36) (actual time=1381.155..1386.767 rows=9500 loops=3)
+                     Group Key: l_suppkey
+                     Batches: 1  Memory Usage: 3985kB
+                     Worker 0:  Batches: 1  Memory Usage: 3985kB
+                     Worker 1:  Batches: 1  Memory Usage: 3985kB
+                     ->  Parallel Seq Scan on lineitem  (cost=0.00..143817.33 rows=2373702 width=9) (actual time=13.035..467.495 rows=1900343 loops=3)
+                           Filter: (l_suppkey > 500)
+                           Rows Removed by Filter: 100062
+ Planning Time: 2.051 ms
+ JIT:
+   Functions: 28
+   Options: Inlining false, Optimization false, Expressions true, Deforming true
+   Timing: Generation 3.761 ms, Inlining 0.000 ms, Optimization 1.847 ms, Emission 37.211 ms, Total 42.818 ms
+ Execution Time: 1455.759 ms
+(26 rows)
+
+
+APX1092B
+
+                                                                      QUERY PLAN
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+ Finalize GroupAggregate  (cost=157476.20..160112.59 rows=3337 width=36) (actual time=1409.997..1440.402 rows=6311 loops=1)
+   Group Key: l_suppkey
+   Filter: (sum(l_quantity) > '15000'::numeric)
+   Rows Removed by Filter: 3189
+   ->  Gather Merge  (cost=157476.20..159812.26 rows=20022 width=36) (actual time=1409.919..1419.696 rows=28500 loops=1)
+         Workers Planned: 2
+         Workers Launched: 2
+         ->  Sort  (cost=156476.17..156501.20 rows=10011 width=36) (actual time=1388.923..1390.287 rows=9500 loops=3)
+               Sort Key: l_suppkey
+               Sort Method: quicksort  Memory: 1275kB
+               Worker 0:  Sort Method: quicksort  Memory: 1275kB
+               Worker 1:  Sort Method: quicksort  Memory: 1275kB
+               ->  Partial HashAggregate  (cost=155685.84..155810.98 rows=10011 width=36) (actual time=1379.351..1384.865 rows=9500 loops=3)
+                     Group Key: l_suppkey
+                     Batches: 1  Memory Usage: 3985kB
+                     Worker 0:  Batches: 1  Memory Usage: 3985kB
+                     Worker 1:  Batches: 1  Memory Usage: 3985kB
+                     ->  Parallel Seq Scan on lineitem  (cost=0.00..143817.33 rows=2373702 width=9) (actual time=12.536..465.986 rows=1900343 loops=3)
+                           Filter: (l_suppkey > 500)
+                           Rows Removed by Filter: 100062
+ Planning Time: 1.041 ms
+ JIT:
+   Functions: 28
+   Options: Inlining false, Optimization false, Expressions true, Deforming true
+   Timing: Generation 2.486 ms, Inlining 0.000 ms, Optimization 1.445 ms, Emission 36.162 ms, Total 40.093 ms
+ Execution Time: 1461.123 ms
+(26 rows)
+
+APX1173A
+
+                                                         QUERY PLAN
+----------------------------------------------------------------------------------------------------------------------------
+ Seq Scan on lineitem l  (cost=350.23..187926.41 rows=3000608 width=20) (actual time=19.303..1778.989 rows=5469120 loops=1)
+   Filter: (NOT (hashed SubPlan 1))
+   Rows Removed by Filter: 532095
+   SubPlan 1
+     ->  Seq Scan on supplier s  (cost=0.00..348.00 rows=891 width=4) (actual time=0.564..6.670 rows=886 loops=1)
+           Filter: (s_acctbal < '0'::numeric)
+           Rows Removed by Filter: 9114
+ Planning Time: 0.781 ms
+ JIT:
+   Functions: 19
+   Options: Inlining false, Optimization false, Expressions true, Deforming true
+   Timing: Generation 1.937 ms, Inlining 0.000 ms, Optimization 1.210 ms, Emission 11.116 ms, Total 14.264 ms
+ Execution Time: 1948.765 ms
+(13 rows)
+
+APX1173B
+
+                                                          QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------
+ Hash Anti Join  (cost=359.14..243957.30 rows=5467094 width=20) (actual time=11.169..1771.378 rows=5469120 loops=1)
+   Hash Cond: (l.l_suppkey = s.s_suppkey)
+   ->  Seq Scan on lineitem l  (cost=0.00..172573.15 rows=6001215 width=20) (actual time=0.081..760.785 rows=6001215 loops=1)
+   ->  Hash  (cost=348.00..348.00 rows=891 width=4) (actual time=11.056..11.071 rows=886 loops=1)
+         Buckets: 1024  Batches: 1  Memory Usage: 40kB
+         ->  Seq Scan on supplier s  (cost=0.00..348.00 rows=891 width=4) (actual time=9.312..10.928 rows=886 loops=1)
+               Filter: (s_acctbal < '0'::numeric)
+               Rows Removed by Filter: 9114
+ Planning Time: 0.490 ms
+ JIT:
+   Functions: 12
+   Options: Inlining false, Optimization false, Expressions true, Deforming true
+   Timing: Generation 1.608 ms, Inlining 0.000 ms, Optimization 0.892 ms, Emission 8.414 ms, Total 10.914 ms
+ Execution Time: 1933.972 ms
+(14 rows)
+
+
+PE002A
+
+                                                 QUERY PLAN
+-------------------------------------------------------------------------------------------------------------
+ Seq Scan on part  (cost=0.00..6628.00 rows=159760 width=41) (actual time=0.097..40.703 rows=159526 loops=1)
+   Filter: (p_size > 10)
+   Rows Removed by Filter: 40474
+ Planning Time: 0.081 ms
+ Execution Time: 45.825 ms
+(5 rows)
+
+PE002B
+
+                                                 QUERY PLAN
+-------------------------------------------------------------------------------------------------------------
+ Seq Scan on part  (cost=0.00..6628.00 rows=159760 width=41) (actual time=0.100..40.749 rows=159526 loops=1)
+   Filter: (p_size > 10)
+   Rows Removed by Filter: 40474
+ Planning Time: 0.126 ms
+ Execution Time: 45.807 ms
+(5 rows)
+
+PE019A
+
+                                                          QUERY PLAN
+------------------------------------------------------------------------------------------------------------------------------
+ Hash Semi Join  (cost=40560.54..56300.54 rows=200000 width=41) (actual time=260.240..484.941 rows=200000 loops=1)
+   Hash Cond: (part.p_partkey = partsupp.ps_partkey)
+   ->  Seq Scan on part  (cost=0.00..6128.00 rows=200000 width=41) (actual time=0.101..37.543 rows=200000 loops=1)
+   ->  Hash  (cost=27560.00..27560.00 rows=792363 width=4) (actual time=255.668..255.669 rows=791914 loops=1)
+         Buckets: 262144  Batches: 8  Memory Usage: 5553kB
+         ->  Seq Scan on partsupp  (cost=0.00..27560.00 rows=792363 width=4) (actual time=0.057..144.035 rows=791914 loops=1)
+               Filter: (ps_availqty > 100)
+               Rows Removed by Filter: 8086
+ Planning Time: 0.238 ms
+ Execution Time: 491.511 ms
+(10 rows)
+
+
+PE019B
+
+                                                           QUERY PLAN
+---------------------------------------------------------------------------------------------------------------------------------
+ Hash Semi Join  (cost=40560.54..56300.54 rows=200000 width=41) (actual time=260.610..484.723 rows=200000 loops=1)
+   Hash Cond: (p.p_partkey = ps.ps_partkey)
+   ->  Seq Scan on part p  (cost=0.00..6128.00 rows=200000 width=41) (actual time=0.097..37.346 rows=200000 loops=1)
+   ->  Hash  (cost=27560.00..27560.00 rows=792363 width=4) (actual time=255.950..255.951 rows=791914 loops=1)
+         Buckets: 262144  Batches: 8  Memory Usage: 5553kB
+         ->  Seq Scan on partsupp ps  (cost=0.00..27560.00 rows=792363 width=4) (actual time=0.055..144.459 rows=791914 loops=1)
+               Filter: (ps_availqty > 100)
+               Rows Removed by Filter: 8086
+ Planning Time: 0.261 ms
+ Execution Time: 491.266 ms
+(10 rows)
